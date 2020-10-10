@@ -2,19 +2,23 @@
 A useless loading bar for console I made for fun.
 
 # Options
-  -p, --prefix        (Default: [) String printed before the loading characters.
+  -o                  Name of the operation needing loading, printed before the prefix.
 
-  -s, --suffix        (Default: ]) String printed after the loading characters.
+  -f, --finished      String printed when the loading is over
+
+  -p                  (Default: [) String printed before the loading characters.
+
+  -s                  (Default: ]) String printed after the loading characters.
 
   -c, --characters    (Default: |) String used as a loading bar.
 
-  -l, --length        (Default: 10) Number of loading bar used.
+  -l                  (Default: 10) Number of loading bar used.
 
   -d, --delai         (Default: 10000) Duration in milliseconds of the loading bar.
 
-  --help              Display the help screen.
+  --help              Display this help screen.
 
   --version           Display version information.
 
 # Why ?
-I wanted to make something really simple to try a bit the langage but still better than a HelloWorld application.
+I wanted to make something simple and stupid.
